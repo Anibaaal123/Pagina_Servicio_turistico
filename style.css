@@ -1,4 +1,5 @@
 
+
 body, html {
     margin: 0;
     padding: 0;
@@ -7,9 +8,8 @@ body, html {
 
 
 .hero {
-    height: 60vh; 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('https://imagenes.recorrido.cl/city_images/pictures/361/original/concepcion-1.jpg?1467236876'); 
+    height: 40vh; 
+    background: url('https://imagenes.recorrido.cl/city_images/pictures/361/original/concepcion-1.jpg?1467236876'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -24,14 +24,15 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 0;
     gap: 40px;
+    background-color: black;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 70px;
     margin: 0;
     padding: 0;
 }
@@ -39,13 +40,13 @@ body, html {
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
 .logo img {
-    height: 60px; 
+    height: 30px; 
 }
 
 
@@ -53,18 +54,119 @@ body, html {
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    width: 80%;
-}
-
-.linea-superior {
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    margin-bottom: 20px;
+    width: 60%;
 }
 
 .hero-content h1 {
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: 600;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.info-sernatur{
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container-info{
+max-width: 900px;
+margin : auto
+}
+
+.subtitulo { 
+    color : rgb(250, 200, 37);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.titulo_2 {
+    color : rgb(44, 82, 138);
+    font-size: 50px;
+}
+
+.contenido-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center; 
+}
+
+.texto-mid {
+    flex: 1; 
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+}
+
+.texto-mid strong {
+    color : rgb(52, 89, 145);
+
+}
+
+.logo-sernatur img{
+    width: 150px;
+    height: auto;
+}
+
+.contenedor-cards {
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 90px; 
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card-turismo {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.card-info {
+    text-align: center;
+    color: white;
+}
+
+.categoria {
+    color : rgb(250, 200, 37);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card-info h2 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+.circulo-flecha {
+    background-color: #f39c12;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.texto-boton {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
