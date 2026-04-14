@@ -67,6 +67,7 @@ body, html {
     background-color: white;
     padding: 60px 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .container-info{
@@ -78,11 +79,13 @@ margin : auto
     color : rgb(250, 200, 37);
     font-size: 25px;
     font-style: italic;
+    margin-left: 110px;
 }
 
 .titulo_2 {
     color : rgb(44, 82, 138);
     font-size: 50px;
+    margin-left: 110px;
 }
 
 .contenido-flex {
@@ -98,6 +101,8 @@ margin : auto
     font-size: 15px;
     text-align: left;
     color: #000000;
+    line-height: 25px;
+    max-width: 550px;
 }
 
 .texto-mid strong {
@@ -114,6 +119,7 @@ margin : auto
     padding: 80px;
     background-color: rgb(255, 255, 255);
     align-items: left;
+    margin-bottom: 100px;
 }
 
 .grid-cards {
@@ -197,7 +203,7 @@ margin : auto
     flex: 1;
     font-size: 15px;
     text-align: left;
-    color: #969494;
+    color: #969494;;
 }
 
 .texto-footer h3{
